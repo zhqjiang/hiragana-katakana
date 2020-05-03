@@ -1,0 +1,32 @@
+p {
+    margin: 0;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 320px;
+    height: 100vh;
+}
+
+.item .item-label {
+    font-size: 20px;
+}
+.context {
+    text-align: center;
+    font-size: 10vh;
+    height: 15vh;
+    font-family: sans-serif;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.mode {
+    margin: 10px 0;
+}

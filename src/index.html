@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>记忆平假名、片假名</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+
+<body>
+    <div class="box">
+        <div class="item">
+            <p class="item-label">ローマ字</p>
+            <div id="romaji" class="context"></div>
+        </div>
+
+        <div class="item">
+            <p class="item-label">片仮名</p>
+            <div id="hiragana" class="context"></div>
+        </div>
+
+        <div class="item">
+            <p class="item-label">平仮名</p>
+            <div id="katakana" class="context"></div>
+        </div>
+
+        <div class="btns">
+            <button id="view-btn">查看</button>
+            <button id="next-btn">下一个</button>
+        </div>
+
+        <select class="mode" name="mode" id="mode-select">
+            <option value="R">ローマ字</option>
+            <option value="H">片仮名</option>
+            <option value="K">平仮名</option>
+        </select>
+
+    </div>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
