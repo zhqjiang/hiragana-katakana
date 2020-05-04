@@ -27,6 +27,13 @@ p {
     height: 10vh;
 }
 
+.btns button {
+    font-size: 3vh;
+    width: 40%;
+    height: 5vh;
+    border-radius: 3px;
+}
+
 .mode {
     margin: 10px 0;
 }
